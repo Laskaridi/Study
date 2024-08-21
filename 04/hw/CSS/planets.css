@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    background-color: aqua;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+margin: 0 auto;
+background-color: white;
+padding: 25px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.mercury{
+    text-align: left;
+    font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+margin-bottom: 62px;
+}
+.venus{
+    font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: right;
+}
+.earth{
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: center;
+margin-bottom: 48px;
+}
+.mars{
+    font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+margin-bottom: 50px;
+}
+.jupiter{
+    font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: center;
+}
+.saturn{
+    font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+}
+.uranus{
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+text-align: right;
+margin-top: 32.12px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
