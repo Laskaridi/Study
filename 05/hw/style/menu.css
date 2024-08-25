@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color: rgb(220, 187, 250);
+}
+main{
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    width: 360px;
+    background-color: white;
+    margin: auto;
+    padding: 62px 20px 91px 24px;
+}
+.menu{
+position: relative;
+width: 21px;
+height: 18px;
+top: 6px;
+padding-bottom: 10.5px;
+}
+button{
+    border: none;
+    background-color: white;
+}
+h1{
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 32px;
+line-height: 49px;
+text-align: left;
+}
+input{
+    border: none;
+    padding: 15px 175px 14px 15px;
+    border-radius: 12px;
+    background: rgb(239, 239, 239);
+    font-size: 12px;
+    font-family: Inter;
+}
+.flex{
+    display: inline-flex;
+    margin-top: 29px;
+    margin-right: 24px;
+}
+.food{
+width: 74px;
+height: 74px;
+border-radius: 12px;
+background: rgb(234, 226, 183);
+margin-right: 40px;
+}
+.food a{
+position: relative;
+left: 20px;
+top: 17px;
+}
+.drinks{
+width: 74px;
+height: 74px;
+border-radius: 12px;
+background: rgb(239, 239, 239);
+margin-right: 40px;
+}
+.drinks a{
+position: relative;
+left: 18px;
+top: 17px;
+}
+.dessert{
+width: 74px;
+height: 74px;
+border-radius: 12px;
+background: rgb(239, 239, 239);
+}
+.dessert a{
+position: relative;
+left: 18px;
+top: 17px;
+}
+.food div{
+position: relative;
+width: 39px;
+height: 19px;
+left: 15px;
+top: 24px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+}
+.drinks div{
+    position: relative;
+    width: 39px;
+    height: 19px;
+    left: 12px;
+    top: 21px;
+    color: rgb(196, 196, 196);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.dessert div{
+    position: relative;
+    width: 39px;
+    height: 19px;
+    left: 7px;
+    top: 23px;
+    color: rgb(196, 196, 196);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+h2{
+color: rgb(0, 48, 73);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+padding-top: 45px;
+}
+.burger{
+    display: inline-flex;
+    width: 356px;
+height: 88px;
+border-radius: 10px;
+box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+background: rgb(255, 255, 255);
+margin-bottom: 12px;
+}
+.big-mac{
+width: 60px;
+height: 68.51px;
+margin: 6px 10px 13.49px 16px;
+}
+.kfc{
+width: 60.77px;
+height: 55.43px;
+margin: 16px 10px 16.57px 16.21px;
+}
+.fish{
+width: 70px;
+height: 60px;
+margin: 18px 10px 10px 14px;
+}
+.btext h4{
+    color: rgb(0, 48, 73);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: -7px;
+}
+.btext p{
+color: rgb(214, 40, 40);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+text-align: left;
+}
+.kfc-text h4{
+    color: rgb(0, 48, 73);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: -7px;
+}
+.kfc-text p{
+    color: rgb(214, 40, 40);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+text-align: left;
+}
+.ftext h4{
+    color: rgb(0, 48, 73);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: -7px;
+}
+.ftext p{
+    color: rgb(214, 40, 40);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+text-align: left;
+}
+
