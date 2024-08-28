@@ -71,9 +71,9 @@ top: 144px;
     background-color: white;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
-    margin-top: -70px;
-    margin-bottom: 25px;
-    margin-left: 870px;
+    position: relative;
+    top: -70px;
+    left: 870px;
 }
 .circle{
     margin: 35px;
