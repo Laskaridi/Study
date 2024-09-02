@@ -72,7 +72,7 @@ background: rgb(213, 13, 31);
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
 }
-.stk-right a{
+.stk-right div{
     color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 24px;
