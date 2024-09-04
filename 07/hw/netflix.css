@@ -1,11 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-main{
-   width: 1728px;
-   background-image: url("images/bg.png");
-   margin: 0 auto;
+body{
+    max-width: 1728px;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 }
 header{
     display: flex;
@@ -59,7 +60,7 @@ padding-right: 33px;
 position: fixed;
 width: 174px;
 height: 66px;
-left: 1642px;
+right: 0px;
 top: 750px;
 }
 .stk-left{
@@ -85,10 +86,8 @@ text-decoration: none;
 }
 .content{
     width: 54.92%;
-    height: 74.66%;
     background-color: none;
     margin-left: 40px;
-   
 }
 .content h2{
     color: rgb(255, 255, 255);
@@ -266,6 +265,9 @@ line-height: 144.52%;
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 49px;
+}
+.images img{
+    width: 15%;
 }
 .images img:hover{
     color: gray;
