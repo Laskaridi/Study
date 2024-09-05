@@ -56,10 +56,10 @@ margin-left: 0;
 background: rgb(255, 255, 255);
 margin-top: 2.56rem;
 }
-.top-left{
+.top{
     padding: 1.5rem;
 }
-.left h2{
+.content h2{
     height: 2.19rem;
     color: rgb(45, 55, 72);
 font-family: Roboto;
@@ -69,7 +69,7 @@ line-height: 2.19rem;
 text-align: left;
 padding-top: 0;
 }
-.left h1{
+.content h1{
     color: rgb(0, 0, 0);
 font-family: Roboto;
 font-size: 3.13rem;
@@ -77,7 +77,7 @@ font-weight: 700;
 line-height: 3.69rem;
 text-align: center;
 }
-.left p{
+.content p{
     height: 4.75rem;
     color: rgb(74, 85, 104);
 font-family: Roboto;
@@ -87,7 +87,7 @@ line-height: 1.19rem;
 text-align: left;
 padding-top: 1rem;
 }
-.left ul{
+.content ul{
     color: rgb(0, 0, 0);
     font-family: Roboto;
     font-size: 1rem;
@@ -98,7 +98,7 @@ padding-top: 1rem;
     padding-left: 6.88rem;
     padding-right: 5.62rem;
     list-style-type: none;
-    list-style-image: url(point.png);
+    list-style-image: url(image/point.png);
     list-style-position: outside;
 }
 .bottom-left{
@@ -108,56 +108,25 @@ background: rgb(237, 242, 247);
 text-align: center;
 padding-top: 1.5rem;
 }
+.bottom-left h3{
+color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
+.bottom-center h3{
+    color: rgb(247, 250, 252);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
 .center{
     width: 31.5%;
     height: 39.1rem;
     box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(152, 149, 149, 0.25);
 background: rgb(255, 255, 255);
-}
-.top-center{
-    padding: 1.5rem;
-}
-.center h2{
-    height: 2.19rem;
-    color: rgb(45, 55, 72);
-font-family: Roboto;
-font-size: 1.88rem;
-font-weight: 700;
-line-height: 2.19rem;
-text-align: left;
-padding-top: 0;
-}
-.center h1{
-    color: rgb(0, 0, 0);
-font-family: Roboto;
-font-size: 3.13rem;
-font-weight: 700;
-line-height: 3.69rem;
-text-align: center;
-}
-.center p{
-    height: 4.75rem;
-    color: rgb(74, 85, 104);
-font-family: Roboto;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.19rem;
-text-align: left;
-padding-top: 1rem;
-}
-.center ul{
-    color: rgb(0, 0, 0);
-    font-family: Roboto;
-    font-size: 1rem;
-    font-weight: 800;
-    line-height: 3.13rem;
-    text-align: center;
-    padding-left: 6.88rem;
-    padding-right: 5.62rem;
-    padding-top: 1.5rem;
-    list-style-type: none;
-    list-style-image: url(point.png);
-    list-style-position: outside;
 }
 .bottom-center{
 width: 100%;
@@ -172,51 +141,6 @@ padding-top: 1.5rem;
 background: rgb(255, 255, 255);
 margin-top: 2.56rem;
 }
-.top-right{
-    padding: 1.5rem;
-}
-.right h2{
-    height: 2.19rem;
-    color: rgb(45, 55, 72);
-font-family: Roboto;
-font-size: 1.88rem;
-font-weight: 700;
-line-height: 2.19rem;
-text-align: left;
-padding-top: 0;
-}
-.right h1{
-    color: rgb(0, 0, 0);
-font-family: Roboto;
-font-size: 3.13rem;
-font-weight: 700;
-line-height: 3.69rem;
-text-align: center;
-}
-.right p{
-    height: 4.75rem;
-    color: rgb(74, 85, 104);
-font-family: Roboto;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.19rem;
-text-align: left;
-padding-top: 1rem;
-}
-.right ul{
-    color: rgb(0, 0, 0);
-    font-family: Roboto;
-    font-size: 1rem;
-    font-weight: 800;
-    line-height: 3.13rem;
-    text-align: center;
-    padding-left: 6.88rem;
-    padding-right: 5.62rem;
-    padding-top: 1.5rem;
-    list-style-type: none;
-    list-style-image: url(point.png);
-    list-style-position: outside;
-}
 .bottom-right{
 width: 100%;
 height: 4.38rem;
@@ -224,17 +148,26 @@ background: rgb(237, 242, 247);
 text-align: center;
 padding-top: 1.5rem;
 }
-@media(max-width:80rem){
-body{
-    background-color: rgb(253, 236, 207);
+.bottom-right h3{
+color: rgb(0, 0, 0);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
 }
-main{
-    width: 95%;
-}
-.content ul{
+
+@media(min-width:40rem) and 
+      (max-width:60rem){
+    main{
+        width: 95%;
+    }
+    .content ul{
         list-style-position: inside;
-        padding: 1rem;
-}
+            padding: 0;
+    }
+    .center{
+        height: 100%;
+    }
 }
 @media(max-width:40rem){
     body{
@@ -250,40 +183,24 @@ main{
         display: block;
         margin: 0 auto;
     }
+    .content ul{
+            list-style-position: inside;
+            padding: 0;
+    }
+    .content h2{
+        text-align: center;
+    }
     .left{
         width: 90%;
         margin: 1.5rem auto;
     }
-    .left h2{
-        text-align: center;
-    }
-    .left ul{
-        list-style-position: inside;
-        padding: 0;
-    }
     .center{
         width: 90%;
+        height: 100%;
         margin: 1.5rem auto;
-    }
-    .center h2{
-        text-align: center;
-    }
-    .center ul{
-        list-style-position: inside;
-        padding: 0;
-    }
-    .bottom-center{
-        background: rgb(237, 242, 247);
     }
     .right{
         width: 90%;
         margin: 1.5rem auto;
-    }
-    .right h2{
-        text-align: center;
-    }
-    .right ul{
-        list-style-position: inside;
-        padding: 0;
     }
 }
