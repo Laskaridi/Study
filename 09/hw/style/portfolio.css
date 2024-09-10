@@ -305,7 +305,7 @@ h3{
 }
 .link a:hover{
     border-radius: 3px;
-    background: rgb(255, 183, 66);
+    background-color: rgb(255, 183, 66);
     padding: 5px 20px;
     color: rgb(33, 37, 41);
 }
@@ -443,58 +443,129 @@ h3{
     line-height: 35px;
     text-decoration: none;
 }
-@media(min-width:800px) and
-      (max-width:1200px){
-        nav{
-           width: 50%;
-        }
-        .button{
-           width: 40%;
-           margin-right: 20px;
-        }
-        .button:last-child{
-            padding-right: 0;
-        }
-        .content2-right h1{
-            font-size: 36px;
-        }
-        .content3-left h1{
-            font-size: 36px;
-            line-height: 60px;
-        }
-        .content3-right{
-            padding-left: 50px;
-        }
-        .content4 h2{
-            font-size: 36px;
-        }
-        .comments h2{
-            font-size: 36px;
-        }
-        .comments-card{
-            width: 30%;
-        }
-        .com-left{
-            width: 40%;
-        }
-        .com-right{
-            width: 45%;
-        }
-        .column1{
-            padding: 0 20px;
-        }
-        .column1 h2{
-            font-size: 24px;
-        }
-        .column2{
-            padding-left: 50px;
-            padding-right: 20px;
-        }
-      }
 
 
-@media(min-width:400px) and 
-      (max-width:800px){
+@media(min-width:1000px) and 
+      (max-width:1400px){
+    nav{
+       width: 50%;
+    }
+    
+    .content1{
+        width: 90%;
+        margin: 40px auto 0;
+    }
+    .content1 h2{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .content1 h1{
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+    .content1 h3{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .buttons{
+        width: 100%;
+        column-gap: 20px;
+    }
+    .button{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .avatar{
+        padding-bottom: 50px;
+    }
+    .content2{
+        display: block;
+    }
+    .content2-left{
+        width: 100%;
+    }
+    .content2-right{
+        width: 100%;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .content2-right h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    .content3-left h1{
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .content3-left{
+        width: 100%;
+        text-align: center;
+        padding: 0 20px 30px;
+    }
+    .content3-right{
+        width: 90%;
+        padding: 90px 45px;
+        margin: 0 auto;
+    }
+    .content3-left h1{
+        font-size: 34px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .content4 h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .link a{
+        margin-right: 5px;
+        padding: 0 20px;
+        line-height: 40px;
+    }
+    .cont4-bot{
+        display: block;
+    }
+    .cont-bot{
+        padding-bottom: 25px;
+    }
+    .cont4-bot img:last-child{
+        padding-bottom: 25px;
+    }
+    .comments h2{
+        font-size: 32px;
+    }
+    
+    .comments-card{
+        width: 30%;
+        margin: 20px auto;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .column1, .column2{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .column1 h2{
+        text-align: center;
+        font-size: 24px;
+    }
+    .column2 h2{
+        text-align: center;
+    }
+    .column1 div{
+     text-align: center;
+    }
+    .column2 div{
+        text-align: center;
+    }
+}
+
+@media(min-width:700px) and 
+      (max-width:1000px){
     nav{
        width: 25%;
     }
@@ -557,8 +628,9 @@ h3{
         padding: 0 20px 30px;
     }
     .content3-right{
-        width: 100%;
-        padding: 20px 30px;
+        width: 90%;
+        padding: 20px 85px;
+        margin: 0 auto;
     }
     .content3-left h1{
         font-size: 34px;
@@ -590,6 +662,125 @@ h3{
     }
     .comments-card{
         width: 85%;
+        margin: 20px auto;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .column1, .column2{
+        width: 100%;
+        padding: 30px 0;
+    }
+    .column1 h2{
+        text-align: center;
+        font-size: 24px;
+    }
+    .column2 h2{
+        text-align: center;
+    }
+    .column1 div{
+     text-align: center;
+    }
+    .column2 div{
+        text-align: center;
+    }
+}
+
+@media(min-width:400px) and 
+      (max-width:700px){
+    nav{
+       width: 25%;
+    }
+    .top a{
+        padding-right: 0;
+    }
+    .content1{
+        width: 90%;
+        margin: 40px auto 0;
+    }
+    .content1 h2{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .content1 h1{
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+    .content1 h3{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .buttons{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .button{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .avatar{
+        padding-bottom: 50px;
+    }
+    .content2{
+        display: block;
+    }
+    .content2-left{
+        width: 100%;
+    }
+    .content2-right{
+        width: 100%;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .content2-right h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    .content3{
+        display: block;
+    }
+    .content3-left{
+        width: 100%;
+        text-align: center;
+        padding: 0 20px 30px;
+    }
+    .content3-right{
+        width: 100%;
+        padding: 20px 44px;
+    }
+    .content3-left h1{
+        font-size: 34px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .content4 h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .link a{
+        margin-right: 30px;
+        line-height: 40px;
+    }
+    .cont4-bot{
+        display: block;
+    }
+    .cont-bot{
+    }
+    .cont4-bot img:last-child{
+        padding-bottom: 25px;
+    }
+    .comments h2{
+        font-size: 32px;
+    }
+    .comments-row{
+        display: block;
+    }
+    .comments-card{
+        width: 90%;
         margin: 20px auto;
     }
     .footer{
