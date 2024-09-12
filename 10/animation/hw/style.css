@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(102, 142, 104);
+}
+.my-img-top{
+    height: 525px;
+    background-image: url(images/top-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-img-top h1{
+    font-family: Shadows Into Light;
+    font-size: 110px;
+    position: relative;
+    top: 180px;
+}
+.my-ff{
+    font-family: Shadows Into Light;
+}
+.my-img-bot{
+    height: 600px;
+    background-image: url(images/bot-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-img-bot h1, p{
+    position: relative;
+    top: 145px;
+}
+.mybut2{
+    position: relative;
+    top: 180px;
+}
+.cont3{
+    font-family: Shadows Into Light;
+}
+.my-foot{
+    font-family: Georgia;
+}
+.img-foot{
+    text-align: right;
+    align-self: flex-end;
+}
